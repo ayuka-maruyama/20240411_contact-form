@@ -18,7 +18,7 @@ services:
 
   mysql:
     image: mysql:8.0.26
-    environment:
+    environment: #.envへ記載される内容
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: laravel_db
       MYSQL_USER: laravel_user
